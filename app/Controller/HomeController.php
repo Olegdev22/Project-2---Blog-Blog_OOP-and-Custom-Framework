@@ -10,7 +10,7 @@ class HomeController
     {
         return View::render(
             template: 'home/index',
-            data: ['message' => 'Hello'],
+            data: ['message' => 'Hello!!'],
             layout: 'layouts/main');
     }
 }

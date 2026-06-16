@@ -2,7 +2,10 @@
 
 declare(strict_types=1);
 
-require __DIR__ . "/../vendor/autoload.php"; // автоматически генерить автоподключение
+require_once __DIR__ . '/../bootstrap.php';
+
+var_dump($config);
+die();
 
 use Core\Router;
 
