@@ -15,7 +15,7 @@ class ErrorHandler
 		if ((php_sapi_name() == 'cli')) {
 			static::renderCliError($exception);
 		} else {
-//		static::renderErrorPage($exception);
+			static::renderErrorPage($exception);
 		}
 	}
 
@@ -39,6 +39,30 @@ class ErrorHandler
 			fwrite(STDOUT, "\nStack trace:\n$trace\n");
 		}
 		exit(1);
+	}
+
+	private static function renderErrorPage(Throwable $exception): void
+	{
+		$isDebug = App::get('config')['app']['debug'] ?? false;
+
+		if ($isDebug) {
+			$errorMessage = static::formatErrorMessage(
+				$exception,
+				"[%s] Error: %s: %s in %s on line %d\n"
+			);
+			$trace = $exception->getTraceAsString();
+		} else {
+			$errorMessage = "An unexpected error occurred. Please check error log for details.";
+			$trace = "";
+		}
+
+		http_response_code(500);
+		echo View::render('errors/500', [
+			'errorMessage' => $errorMessage,
+			'trace' => $trace,
+			'isDebug' => $isDebug,
+		], 'layouts/main');
+		exit();
 	}
 
 	private static function logError(Throwable $exception): void
