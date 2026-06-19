@@ -2,6 +2,7 @@
 
 namespace Core;
 
+use Exception;
 use PDO;
 use PDOException;
 use PDOStatement;
@@ -20,7 +21,7 @@ class Database
 			$this->pdo = new PDO($dsn, $username, $password, $options);
 			$this->pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 		} catch (PDOException $e) {
-			throw new PDOException("Could not connect to the database");
+			throw new Exception("Could not connect to the database");
 		}
 	}
 
@@ -30,8 +31,8 @@ class Database
 		$dbname = $config['dbname'];
 
 		return match ($driver) {
-			'sqlite' => "sqlite:{$dbname}",
-			default => throw new PDOException("Unsupported database driver: {$driver}"),
+			'sqlite' => "sqlite:$dbname",
+			default => throw new Exception("Unsupported database driver: {$driver}"),
 		};
 	}
 

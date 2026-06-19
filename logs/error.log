@@ -1,3 +1,44 @@
 [2026-06-18 12:16:09] Error: Exception: This should go into the logs in /var/www/html/bin/schema_load.php on line 12
 [2026-06-18 13:01:13] Error: Exception: This has happened on the web! in /var/www/html/app/Controller/HomeController.php on line 12
 [2026-06-18 13:36:44] Error: Exception: This has happened on the web! in /var/www/html/app/Controller/HomeController.php on line 12
+[2026-06-18 22:03:33] Error: Exception: This has happened on the web! in /var/www/html/app/Controller/HomeController.php on line 12
+[2026-06-18 23:19:58] Error: PDOException: SQLSTATE[HY000]: General error: 1 near "INTOusers": syntax error in /var/www/html/core/Database.php on line 40
+[2026-06-18 23:22:36] Error: PDOException: SQLSTATE[HY000]: General error: 1 near "INTOusers": syntax error in /var/www/html/core/Database.php on line 40
+[2026-06-18 23:22:39] Error: PDOException: SQLSTATE[HY000]: General error: 1 near "INTOusers": syntax error in /var/www/html/core/Database.php on line 40
+[2026-06-18 23:22:40] Error: PDOException: SQLSTATE[HY000]: General error: 1 near "INTOusers": syntax error in /var/www/html/core/Database.php on line 40
+[2026-06-18 23:22:40] Error: PDOException: SQLSTATE[HY000]: General error: 1 near "INTOusers": syntax error in /var/www/html/core/Database.php on line 40
+[2026-06-18 23:22:41] Error: PDOException: SQLSTATE[HY000]: General error: 1 near "INTOusers": syntax error in /var/www/html/core/Database.php on line 40
+[2026-06-18 23:23:24] Error: PDOException: SQLSTATE[HY000]: General error: 1 near "INTOusers": syntax error in /var/www/html/core/Database.php on line 40
+[2026-06-18 23:23:26] Error: PDOException: SQLSTATE[HY000]: General error: 1 near "INTOusers": syntax error in /var/www/html/core/Database.php on line 40
+[2026-06-18 23:23:28] Error: PDOException: SQLSTATE[HY000]: General error: 1 near "INTOusers": syntax error in /var/www/html/core/Database.php on line 40
+[2026-06-18 23:23:32] Error: PDOException: SQLSTATE[HY000]: General error: 1 near "INTOusers": syntax error in /var/www/html/core/Database.php on line 40
+[2026-06-18 23:24:44] Error: PDOException: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database in /var/www/html/core/Database.php on line 41
+[2026-06-18 23:30:20] Error: PDOException: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database in /var/www/html/core/Database.php on line 41
+[2026-06-18 23:30:23] Error: PDOException: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database in /var/www/html/core/Database.php on line 41
+[2026-06-18 23:30:34] Error: PDOException: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database in /var/www/html/core/Database.php on line 41
+[2026-06-18 23:32:50] Error: PDOException: SQLSTATE[HY000]: General error: 1 near ",": syntax error in /var/www/html/core/Database.php on line 40
+[2026-06-18 23:32:54] Error: PDOException: SQLSTATE[HY000]: General error: 1 near ",": syntax error in /var/www/html/core/Database.php on line 40
+[2026-06-18 23:40:42] Error: PDOException: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database in /var/www/html/core/Database.php on line 41
+[2026-06-18 23:40:56] Error: PDOException: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database in /var/www/html/core/Database.php on line 41
+[2026-06-18 23:40:59] Error: PDOException: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database in /var/www/html/core/Database.php on line 41
+[2026-06-18 23:45:29] Error: PDOException: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database in /var/www/html/core/Database.php on line 41
+[2026-06-18 23:46:16] Error: PDOException: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database in /var/www/html/core/Database.php on line 41
+[2026-06-18 23:48:41] Error: PDOException: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database in /var/www/html/core/Database.php on line 41
+[2026-06-18 23:48:42] Error: PDOException: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database in /var/www/html/core/Database.php on line 41
+[2026-06-18 23:50:55] Error: PDOException: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database in /var/www/html/core/Database.php on line 41
+[2026-06-18 23:58:11] Error: PDOException: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database in /var/www/html/core/Database.php on line 41
+[2026-06-19 00:05:31] Error: PDOException: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database in /var/www/html/core/Database.php on line 41
+[2026-06-19 00:05:32] Error: PDOException: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database in /var/www/html/core/Database.php on line 41
+[2026-06-19 08:37:59] Error: PDOException: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database in /var/www/html/core/Database.php on line 41
+[2026-06-19 08:38:02] Error: PDOException: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database in /var/www/html/core/Database.php on line 41
+[2026-06-19 08:48:23] Error: PDOException: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database in /var/www/html/core/Database.php on line 42
+[2026-06-19 08:54:32] Error: PDOException: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database in /var/www/html/core/Database.php on line 42
+[2026-06-19 08:57:07] Error: PDOException: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database in /var/www/html/core/Database.php on line 42
+[2026-06-19 09:10:56] Error: PDOException: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database in /var/www/html/core/Database.php on line 42
+[2026-06-19 09:16:08] Error: PDOException: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database in /var/www/html/core/Database.php on line 42
+[2026-06-19 09:56:14] Error: PDOException: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database in /var/www/html/core/Database.php on line 42
+[2026-06-19 09:56:15] Error: PDOException: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database in /var/www/html/core/Database.php on line 42
+[2026-06-19 10:12:38] Error: PDOException: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database in /var/www/html/core/Database.php on line 42
+[2026-06-19 10:26:35] Error: PDOException: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database in /var/www/html/core/Database.php on line 42
+[2026-06-19 10:26:40] Error: PDOException: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database in /var/www/html/core/Database.php on line 42
+[2026-06-19 10:26:41] Error: PDOException: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database in /var/www/html/core/Database.php on line 42
